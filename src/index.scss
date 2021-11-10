@@ -1,10 +1,18 @@
+$navLinkColor:rgba(0, 177, 247, 0.986);
+
 body{
     margin: 0;
 }
 
 .homepage{
-    background-color:yellow;
-    min-height:90vh
+    display: flex;
+    justify-content: space-between;
+    background-color:skyblue;
+    min-height:90vh;
+
+    h1{
+        margin: 0;
+    }
 }
 
 .shoppingpage{
@@ -16,9 +24,28 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: $navLinkColor;
     font-weight: bold;
     min-height: 5rem;
-    background-color: red;
-    cursor: pointer
+    background-color: black;
+    cursor: pointer;
+    font-size: x-large;
+    
+    ul{
+        margin: 0px 20px;
+    }
+
+    li{
+        color: $navLinkColor;
+    }
+}
+
+.productImages{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+    img{
+        max-height: 20rem;
+    }
 }
