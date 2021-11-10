@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import {CatRobotsData, RobotKits} from "../data/productData";
 
@@ -15,9 +15,6 @@ function ShoppingPage() {
                     <img src={RobotKits[0].url} />
                     <h1>Robot Kits</h1>
                 </Link>
-                <div className='shoppingCart'>
-                    
-                </div>
         </div>
     )
 }
