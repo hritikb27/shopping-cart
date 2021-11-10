@@ -15,6 +15,9 @@ function ShoppingPage() {
                     <img src={RobotKits[0].url} />
                     <h1>Robot Kits</h1>
                 </Link>
+                <div className='shoppingCart'>
+                    
+                </div>
         </div>
     )
 }

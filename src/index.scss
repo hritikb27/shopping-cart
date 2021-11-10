@@ -1,7 +1,13 @@
 $navLinkColor:rgba(0, 177, 247, 0.986);
 
+@font-face {
+    font-family: "more-than-human";
+    src: url('./data/Zian-7vO4.ttf');
+}
+
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .homepage{
@@ -9,6 +15,7 @@ body{
     justify-content: space-between;
     background-color:skyblue;
     min-height:90vh;
+    font-size: larger;
 
     h1{
         margin: 0;
@@ -17,26 +24,36 @@ body{
 
 .shoppingpage{
     background-color:lightblue;
-    min-height:90vh
+    min-height:90vh;
+
+    .shoppingCart{
+        min-width: 20vw;
+        max-height: 50vh;
+        border: 2px solid burlywood;
+    }
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: $navLinkColor;
+    color: white;
     font-weight: bold;
     min-height: 5rem;
     background-color: black;
     cursor: pointer;
     font-size: x-large;
+
+    h3{
+        font-family: 'more-than-human', sans-serif;
+    }
     
     ul{
         margin: 0px 20px;
     }
 
     li{
-        color: $navLinkColor;
+        color: white;
     }
 }
 

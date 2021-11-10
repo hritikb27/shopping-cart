@@ -1,4 +1,3 @@
-import { Fragment } from "react"
 import { CatRobotsData } from "./productData"
 
 function CatRobots(){
@@ -8,6 +7,7 @@ function CatRobots(){
             <img src={item.url} />
             <p>{item.price}</p>
             <p>{item.name}</p>
+            <button>Add To Cart</button>
         </div>
     })}
     </div>
