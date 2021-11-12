@@ -7,9 +7,9 @@ function CatRobots(props){
         {CatRobotsData.map(item=>{
         return <div>
             <img src={item.url} />
-            <p>{item.price}</p>
+            <p>${item.price}</p>
             <p>{item.name}</p>
-            <button onClick={()=>props.func(item)}>Add To Cart</button>
+            <button onClick={(event)=>props.func(item, event.target)}>Add To Cart</button>
         </div>
     })}
     </div>

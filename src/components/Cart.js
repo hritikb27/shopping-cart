@@ -2,14 +2,16 @@ import React from "react";
 
 
 function Cart(props) {
-    let totalPrice=0;
+    let totalPrice = 0;
     return (
-        <div>
+        <div className='cart'>
             <h3>Items in the Cart:</h3>
-            {props.items.map(item => {
-                totalPrice = totalPrice+item.price;
-                return <><p>{item.name}</p><p>{item.price}</p></> 
-            })}
+            <div className='cartInfo'>
+                {props.items.map(item => {
+                    totalPrice = totalPrice + (item.price * props.quantity[item.name]);
+                    return <div><p>{item.name}</p><p>${item.price}</p> <label>Quantity: <input type='number' value={props.quantity[item.name]} onChange={(event) => props.changeQuantity(item.name, event.target.value)} /></label></div>
+                })}
+            </div>
             <h1>Total: ${totalPrice}</h1>
         </div>
     )
