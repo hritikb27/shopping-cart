@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hritikb27/shopping-cart/static/css/main.91eb58b0.chunk.css",
+    "main.js": "/hritikb27/shopping-cart/static/js/main.6ba26bf0.chunk.js",
+    "main.js.map": "/hritikb27/shopping-cart/static/js/main.6ba26bf0.chunk.js.map",
+    "runtime-main.js": "/hritikb27/shopping-cart/static/js/runtime-main.9e4dacf9.js",
+    "runtime-main.js.map": "/hritikb27/shopping-cart/static/js/runtime-main.9e4dacf9.js.map",
+    "static/js/2.aa4e3991.chunk.js": "/hritikb27/shopping-cart/static/js/2.aa4e3991.chunk.js",
+    "static/js/2.aa4e3991.chunk.js.map": "/hritikb27/shopping-cart/static/js/2.aa4e3991.chunk.js.map",
+    "index.html": "/hritikb27/shopping-cart/index.html",
+    "static/css/main.91eb58b0.chunk.css.map": "/hritikb27/shopping-cart/static/css/main.91eb58b0.chunk.css.map",
+    "static/js/2.aa4e3991.chunk.js.LICENSE.txt": "/hritikb27/shopping-cart/static/js/2.aa4e3991.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/hritikb27/shopping-cart/static/media/Zian-7vO4.04472640.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e4dacf9.js",
+    "static/js/2.aa4e3991.chunk.js",
+    "static/css/main.91eb58b0.chunk.css",
+    "static/js/main.6ba26bf0.chunk.js"
+  ]
+}
