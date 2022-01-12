@@ -26,7 +26,7 @@ function Cart(props) {
           );
         })}
       </div>
-      <h1>Total: ${parseFloat(totalPrice)}</h1>
+      <h1>Total: ${parseFloat(totalPrice, 2)}</h1>
     </div>
   );
 }

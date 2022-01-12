@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BuySVG from "./BuySVG";
 
 function HomePage() {
   return (
@@ -11,7 +12,7 @@ function HomePage() {
           future.
         </p>
         <Link to="/shop">
-          <button>Shop!</button>
+          <BuySVG />
         </Link>
       </div>
 
